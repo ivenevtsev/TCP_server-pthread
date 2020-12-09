@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/TCP_server.dir/main.c.o CMakeFiles/TCP_server.dir/server.c.o CMakeFiles/TCP_server.dir/client.c.o  -o TCP_server.exe -Wl,--out-implib,libTCP_server.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
